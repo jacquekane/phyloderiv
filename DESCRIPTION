@@ -4,10 +4,12 @@ Title: An implementation of the Phylogenetic Derivative
 Version: 0.1.0
 Author: person("Jacqueline", "Kane", email = "jacqueline.kane16@gmail.com", role = c("aut", "cre"))
 Maintainer: The package maintainer <yourself@somewhere.net>
-Description:  An implementation of the phylogenetic derivative. It implements functions for reading 
-phylogenetic trees (MS trees from Hudson), Blossoc trees, and RENT+ trees. It also implements functions
-for computing the phylogenetic derivative and computing the distances between trees from two lists at 
-the same indices. Distance measurements include Robinson-Foulds and path interval.
+Description: An implementation of the phylogenetic derivative. It implements functions for reading 
+  phylogenetic trees (MS trees from Hudson), Blossoc trees, and RENT+ trees. It also implements functions 
+  for computing the phylogenetic derivative and computing the distances between trees from two lists at 
+  the same indices. Distance measurements include Robinson-Foulds and path interval.
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
+Imports: ape
+RoxygenNote: 6.0.1
